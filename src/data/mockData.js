@@ -12,7 +12,7 @@ export const currentUser = {
   },
   achievements: [
     { id: "a1", name: "Early Bird", icon: "🌅", desc: "Log in before 8 AM for 5 days" },
-    { id: "a2", name: "Fast Learner", icon: "🚀", desc: "Complete 10 tasks in a day" },
+    { id: "a2", name: "Slow Learner", icon: "🚀", desc: "Complete 10 tasks in a day" },
     { id: "a3", name: "Collaborator", icon: "🤝", desc: "Help a group member 5 times" }
   ]
 };
