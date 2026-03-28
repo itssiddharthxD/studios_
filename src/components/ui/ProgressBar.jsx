@@ -9,7 +9,7 @@ export const ProgressBar = ({ progress, className, height = 'h-2', trackColor = 
         <motion.div
           initial={{ width: 0 }}
           animate={{ width: `${progress}%` }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 2, ease: "easeOut" }}
           className={cn("h-full rounded-full", fillColor)}
         />
       ) : (
