@@ -25,9 +25,9 @@ export const Dashboard = () => {
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <Card className="flex items-center gap-4">
-          <div className="p-3 bg-primary-500/10 rounded-xl text-primary-400">
+          <div className="p-4 bg-primary-500/10 rounded-xl text-primary-400">
             <Target size={24} />
           </div>
           <div>
@@ -97,7 +97,7 @@ export const Dashboard = () => {
                   dataKey="completion" 
                   stroke="#8b5cf6" 
                   strokeWidth={4}
-                  dot={{ r: 4, fill: '#141414', stroke: '#8b5cf6', strokeWidth: 2 }}
+                  dot={{ r: 4, fill: '#141414', stroke: '#8b5cf6', strokeWidth: 3 }}
                   activeDot={{ r: 6, fill: '#8b5cf6', stroke: '#fff' }}
                 />
               </LineChart>
@@ -107,7 +107,7 @@ export const Dashboard = () => {
 
         <div className="space-y-6">
           <Card glow className="flex flex-col items-center justify-center p-8 text-center bg-gradient-to-br from-dark-800 to-primary-900/10">
-            <ProgressRing radius={60} stroke={8} progress={75} label="Roadmap" />
+            <ProgressRing radius={60} stroke={7} progress={75} label="Roadmap" />
             <h3 className="font-bold mt-4 text-lg">You're doing great!</h3>
             <p className="text-sm text-gray-400 mt-2">You are ahead of 60% of your group 🚀</p>
           </Card>
