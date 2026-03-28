@@ -18,7 +18,7 @@ export const Dashboard = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-            Welcome back, {user.name} 👋
+            Welcome back, {user.name} 
           </h1>
           <p className="text-gray-400 mt-1">Ready to tackle some coding today?</p>
         </div>
